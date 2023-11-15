@@ -38,6 +38,20 @@ install Tesseract OCR with:
 sudo apt install tesseract-ocr
 ```
 
+## Possible improvements
+
+### Production deployments
+
+It is noteworthy to state that this project relies on local runs of Tesseract,
+only to demonstrate the results. However, in a production environment, where
+larger computations may take place, it is possible to use Cloud services and
+process the data using APIs, thus reducing the necessary resources to run the project.
+
+### Usage of LLM models
+
+Furthermore, it is also possible to use LLM models to extract further insight from
+the textual data retrieved, e.g., using OpenAI GPT API to summarize the data.
+
 ## Caveats
 
 Since this is a web crawling project, it is dependent on CSS selectors and XPaths,
